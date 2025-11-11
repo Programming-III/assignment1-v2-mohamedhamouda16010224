@@ -5,10 +5,10 @@
 #include <string>
 using namespace std;
 class Student ::Person{
-    private:
+  public:
     int yearLevel;
     string major;
-    public:
+    
     display();
 };
 #endif
