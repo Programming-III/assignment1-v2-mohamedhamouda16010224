@@ -10,6 +10,6 @@ private:
     string name;
     int id;
     public:
-    display();
+    void display();
 };
 #endif
