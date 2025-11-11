@@ -3,19 +3,12 @@
 
 #include "Person.h"
 #include <string>
-#using namespace std;
-//#write student class here
-
-
-
-
-
-
-
-
-
-
-
-
-
+using namespace std;
+class Student ::Person{
+    private:
+    int yearLevel;
+    string major;
+    public:
+    display();
+};
 #endif
