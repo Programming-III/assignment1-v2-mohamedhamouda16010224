@@ -4,11 +4,25 @@
 #include "Person.h"
 #include <string>
 using namespace std;
-class Student ::Person{
-  public:
+class Student {
+    private:
     int yearLevel;
     string major;
-    
-    display();
+    public:
+   void display();
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #endif
