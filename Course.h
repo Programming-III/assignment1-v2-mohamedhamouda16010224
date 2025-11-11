@@ -1,22 +1,22 @@
-#ifndef COURSE_H
-#define COURSE_H
+//
+// Created by moham on 11/11/2025.
+//
 
-#include <string>
-#include "Student.h"
-using namespace std;
-//#write your code here
-
+#ifndef ASSIGNMENT_COURSE_H
+#define ASSIGNMENT_COURSE_H
 
 
-
-
-
-
-
-
-
-
-
+class Course {
+private:
+    string courseCode;
+    string courseName;
+    int maxStudents;
+    Student *students;
+    int currentStudents;
+public:
+   void addStudent(const Student& s);
+    void displayCourseInfo();
+};
 
 
 #endif
